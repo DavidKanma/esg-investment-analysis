@@ -49,8 +49,6 @@ esg-risk-portfolio-analysis/
 
 ## Key Findings
 
-> Replace with your actual results once analysis is done. Example structure below.
-
 - **Finding 1:** [e.g., "Moderate-ESG-risk companies had the highest median YTD return (X%), outperforming both low-risk (Y%) and high-risk (Z%) companies — suggesting the relationship is non-linear, not a simple 'low risk = high return.'"]
 - **Finding 2:** [e.g., "Energy and Utilities carried the highest average ESG risk scores (X), while Technology and Real Estate carried the lowest (Y)."]
 - **Finding 3:** [e.g., "Excluding the worst ESG-risk quintile reduced Energy sector weight from X% to Y%, with an estimated Z% change in trailing 12-month portfolio return."]
