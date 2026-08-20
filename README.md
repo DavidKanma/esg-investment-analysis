@@ -1,4 +1,4 @@
-# esg-investment-analysis
+
 # ESG Risk & Portfolio Performance Analysis
 
 Should an asset manager overweight or underweight high-ESG-risk sectors?
