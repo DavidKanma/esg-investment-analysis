@@ -1,1 +1,1 @@
-# ESG_Investment_Analysis
+# esg-investment-analysis
