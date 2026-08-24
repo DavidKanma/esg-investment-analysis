@@ -25,32 +25,27 @@ an ESG-tilted equity fund. Before committing, they want evidence-based answers t
 | Data cleaning & prep | Excel | Cleaned raw CSV, handled 73 missing ESG scores, built sector-level pivot tables |
 | Data joins & aggregation | SQL (SQLite) | Joined ESG dataset to return data by ticker, ranked companies into 5 ESG risk quintiles |
 | Statistical analysis | Python (pandas, scipy) | Pearson correlation and linear regression of ESG risk score vs. YTD return; sector-level ANOVA |
-
-
 | Dashboard | Power BI | Sector risk heatmap, return-by-risk-quintile chart, interactive exclusion-impact simulator |
 
 ## Repo Structure
 
-esg-risk-portfolio-analysis/
-├── README.md
-├── data/
-│ ├── raw/ # original Kaggle CSV + yfinance pull
-│ └── cleaned/ # joined, quintile-ranked dataset used for analysis
-├── excel/
-│ └── esg_sector_pivot_analysis.xlsx
-├── sql/
-│ ├── 01_clean_and_join.sql
-│ └── 02_risk_quintile_ranking.sql
-├── notebooks/
-│ └── esg_risk_return_analysis.ipynb
-├── dashboard/
-│ ├── esg_dashboard.pbix
-│ └── screenshots/
-└── images/
-└── dashboard_preview.png
-
-
-
+    esg-risk-portfolio-analysis/
+    ├── README.md
+    ├── data/
+    │   ├── raw/                     # original Kaggle CSV + yfinance pull
+    │   └── cleaned/                 # joined, quintile-ranked dataset used for analysis
+    ├── excel/
+    │   └── esg_sector_pivot_analysis.xlsx
+    ├── sql/
+    │   ├── 01_clean_and_join.sql
+    │   └── 02_risk_quintile_ranking.sql
+    ├── notebooks/
+    │   └── esg_risk_return_analysis.ipynb
+    ├── dashboard/
+    │   ├── esg_dashboard.pbix
+    │   └── screenshots/
+    └── images/
+        └── dashboard_preview.png
 
 ## Key Findings
 
@@ -85,8 +80,3 @@ I'd recommend against a broad ESG-risk-based exclusion screen. The data shows no
 3. Run `notebooks/esg_risk_return_analysis.ipynb` to pull YTD returns via `yfinance` and reproduce the join, quintile ranking, and statistical analysis
 4. Reference `sql/01_clean_and_join.sql` and `sql/02_risk_quintile_ranking.sql` for the underlying query logic
 5. Open `dashboard/esg_dashboard.pbix` in Power BI Desktop to explore the interactive dashboard
-
-
-
-
-
